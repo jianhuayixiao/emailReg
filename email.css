@@ -1,0 +1,23 @@
+body,ul,p,dl,dd,input{ margin: 0; }
+ul,input{ padding: 0; }
+li{ list-style: none outside; }
+body{ background-color: #fdfdfd; font: 16px "Microsoft YaHei"; }
+html,body{ height: 100%; }
+.m-form{ height: 100%; width: 1000px; margin: 0 auto; }
+.m-form dl{ padding: 1%; }
+.m-form dl:after{ display: block; clear: both; height: 0; overflow: hidden; content: '.';}
+.m-form dt{ float: left; width: 18%; text-align: right; line-height: 30px; }
+.m-form dd{ float: left; width: 39%; padding-left: 1%; position: relative;  }
+.m-form .i-w{ height: 30px; border: 1px solid #e1e1e1; background-color: #fdfdfd; position: relative; border-radius: 5px; }
+.m-form .cur{ border: 1px solid #18c0e7; background-color: white; }
+.m-form .err{ border: 1px solid red; }
+.m-form .i-w .te{ border: none; position: absolute; left: 2px; top: 6px; line-height: 20px; height: 20px; width: 95%; background: transparent; }
+.m-form .i-w .re{ display: none; position: absolute; width: 13px; height: 13px; background: url(img/right.jpg) no-repeat; top: 9px; right: 5px; }
+.m-form .err .re{ background: url(img/error.jpg) no-repeat;  }
+.m-form .prompt{ display: none; border: 1px solid #D4D1D1; color: #A7A6A6; font-size: 12px; left: 10px;  border-radius: 5px;  position: absolute; top: 0; line-height: 30px; padding: 0 10px; }
+.m-form .errorTip { display: block; background-color: #fff2f5; border: 1px solid #f59fb1; color: #d93c3c; }
+.m-form .domain{ display: none; position: absolute; top: 32px; left: -1px; width: 100%; border: 1px solid #e1e1e1; background-color: white; border-radius: 5px;  }
+.m-form .domain ul{}
+.m-form .domain ul li{}
+.m-form .domain ul li a{ display: block; text-decoration: none; font-size: 12px; line-height: 30px; padding: 0 2%; }
+.m-form .domain ul li a:hover,.m-form .domain ul li.hov a{ background-color: #e8f9fe; }
