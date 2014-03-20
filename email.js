@@ -112,7 +112,6 @@ function emailAdd( obj ){
         obj.parent().addClass("err");
         obj.next().addClass("error").show();
     }
-    $(".domain").hide();
 }
 
 
